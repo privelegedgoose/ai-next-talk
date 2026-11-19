@@ -7,3 +7,5 @@ Web version of the slides for the talk "AI automation in companies: how to build
 - `src/` holds the slide markup and the extra styles the page was built from.
 
 The money figures on the slides are an illustrative model, not measured company records.
+
+Search engines are asked not to index this page (the `robots` meta tag in `index.html`). If you rebuild `index.html` from `src/`, add that tag again.
