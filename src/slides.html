@@ -1,0 +1,365 @@
+<section class="slide cover" data-label="Cover" data-dark="true">
+  <div class="wrap stack">
+    <div class="reveal d1 eyebrow">AI NEXT &nbsp;&middot;&nbsp; A case from practice</div>
+    <h1 class="reveal d2" style="max-width:26ch">AI automation in companies: how to build AI systems that <span class="em">save money</span></h1>
+    <div class="reveal d3" style="--vw:160px"><span class="vector"><span class="line"></span><span class="head"></span></span></div>
+    <p class="reveal d3 tagsub" style="color:rgba(244,242,236,.82)">A real case from a Californian EdTech company: 4 days to 4 hours</p>
+    <div class="reveal d4 prep"><p class="small" style="color:rgba(244,242,236,.7)"><b style="color:#F4F2EC">Daria Gavrilova</b> &nbsp;&middot;&nbsp; HCD Barcelona</p></div>
+  </div>
+</section>
+
+<section class="slide" data-label="The frame">
+  <div class="wrap">
+    <div class="reveal d1 eyebrow">The frame</div>
+    <h2 class="reveal d2">This is not a personal assistant</h2>
+    <div class="grid-2 compare reveal d3">
+      <div class="side">
+        <div class="lab">Most AI talks</div>
+        <p class="big-list muted-list">One person.<br>One chatbot.<br>One task at a time.</p>
+      </div>
+      <div class="side">
+        <div class="lab hot">This talk</div>
+        <p class="big-list">A system a company runs.<br>Shared content.<br>Written rules.<br>Many users.</p>
+      </div>
+    </div>
+    <p class="reveal d4 bigq" style="font-size:clamp(1.2rem,2.2vw,1.7rem);max-width:44ch">A question for the C-suite: where does AI work across the company, and not only on one laptop?</p>
+  </div>
+</section>
+
+<section class="slide" data-label="Who I am">
+  <div class="wrap">
+    <div class="reveal d1 eyebrow">Who I am</div>
+    <h2 class="reveal d2" style="max-width:20ch">I work in AI adoption and automation</h2>
+    <div class="reveal d3 rows" style="margin-top:34px">
+      <div class="row"><div class="num">01</div><div><span class="nm">Use-case identification</span><span class="tag">Finding the process where AI saves real time, and the ones where it should not be used</span></div></div>
+      <div class="row"><div class="num">02</div><div><span class="nm">AI architecture</span><span class="tag">Choosing the simplest design that does the job, and that people can explain</span></div></div>
+      <div class="row"><div class="num">03</div><div><span class="nm">Adoption</span><span class="tag">Getting people to use the system after the demo is over</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="slide" data-label="Why an AI person">
+  <div class="wrap grid-2-wide">
+    <div>
+      <div class="reveal d1 eyebrow">Why an AI person</div>
+      <h2 class="reveal d2" style="font-size:clamp(1.6rem,3vw,2.4rem);max-width:18ch">You have developers. Why add an AI person?</h2>
+      <p class="reveal d3 bigq" style="margin-top:28px">Developers build what they are asked to build. Someone has to work out <span class="u">what to ask for.</span></p>
+    </div>
+    <div class="reveal d3 rows">
+      <div class="row"><div class="num">01</div><div><span class="nm">Sees the whole process, across teams</span></div></div>
+      <div class="row"><div class="num">02</div><div><span class="nm">Decides where AI belongs and where it does not</span></div></div>
+      <div class="row"><div class="num">03</div><div><span class="nm">Turns a messy process into a clear specification</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="slide divider" data-label="Problem" data-dark="true">
+  <div class="wrap stack">
+    <div class="reveal d1 eyebrow">AI NEXT &nbsp;&middot;&nbsp; A case from practice</div>
+    <h1 class="reveal d2 huge-word">Problem</h1>
+    <div class="reveal d3 prep"><p class="small" style="color:rgba(244,242,236,.7)"><b style="color:#F4F2EC">Daria Gavrilova</b> &nbsp;&middot;&nbsp; HCD Barcelona</p></div>
+  </div>
+</section>
+
+<section class="slide" data-label="Interviews">
+  <div class="wrap">
+    <div class="reveal d1 eyebrow">Step 1 &nbsp;&middot;&nbsp; Problem</div>
+    <h2 class="reveal d2">I started with interviews</h2>
+    <div class="reveal d3 diagram">
+      <div class="box"><div class="h">Content team</div><p>One official version of every course</p></div>
+      <div class="gap"><span>no direct line</span></div>
+      <div class="box"><div class="h">Enterprise team (B2B)</div><p>A custom programme for each client</p></div>
+    </div>
+    <div class="reveal d4 grid-2 finding">
+      <p class="lead" style="color:var(--ink);max-width:30ch">The company had a developer team. Nobody had traced the process across teams.</p>
+      <div><div class="bignum">&asymp; 4 days</div><p class="small" style="font-size:1rem;margin-top:8px">to build one custom proposal by hand</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="slide" data-label="Use case">
+  <div class="wrap">
+    <div class="reveal d1 eyebrow">Use-case identification</div>
+    <h2 class="reveal d2" style="max-width:22ch">How I knew this was a good use case</h2>
+    <div class="reveal d3 rows" style="margin-top:30px">
+      <div class="row"><div class="num">01</div><div><span class="nm">Repeated</span><span class="tag">Every client request follows the same steps</span></div></div>
+      <div class="row"><div class="num">02</div><div><span class="nm">One source</span><span class="tag">The answer comes from approved course content</span></div></div>
+      <div class="row"><div class="num">03</div><div><span class="nm">Small variation</span><span class="tag">Only the client details change</span></div></div>
+      <div class="row"><div class="num">04</div><div><span class="nm">Checkable</span><span class="tag">A person can review the result in minutes</span></div></div>
+    </div>
+    <p class="reveal d4 bigq" style="font-size:clamp(1.15rem,2vw,1.6rem);margin-top:26px">If a process fails one of these tests, I do not automate it yet.</p>
+  </div>
+</section>
+
+<section class="slide" data-label="Data">
+  <div class="wrap">
+    <div class="reveal d1 eyebrow">Step 2 &nbsp;&middot;&nbsp; Data</div>
+    <h2 class="reveal d2" style="max-width:20ch">One source of truth, in plain files</h2>
+    <div class="grid-2-wide" style="margin-top:34px;align-items:start">
+      <div class="reveal d3">
+<pre class="mono">courses/
+  ai-product-management/
+    content/   module text
+    decks/     web slides
+    meta/      syllabus.md
+               course.json
+docs/
+  <span class="hot">GENERATION_RULES.md</span></pre>
+        <p class="lead" style="margin-top:22px">The same three folders for every course.</p>
+      </div>
+      <figure class="reveal d4 fig">
+        <img src="img/gh_folder.png" alt="Screenshot of a public GitHub repository folder listing" loading="lazy">
+        <figcaption>Illustration: a public GitHub repository, one folder per unit. Not the client's repository.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="slide" data-label="Architecture">
+  <div class="wrap">
+    <div class="reveal d1 eyebrow">Step 3 &nbsp;&middot;&nbsp; Architecture</div>
+    <h2 class="reveal d2" style="max-width:20ch">Architecture can look different. This was mine.</h2>
+    <div class="reveal d3 grid-2 options" style="margin-top:36px">
+      <div class="opt faded">
+        <div class="eyebrow muted">Option A</div>
+        <div class="t">Autonomous agents</div>
+        <p>An AI agent explores the files, decides and acts on its own.</p>
+        <p>Flexible. Harder to control, check and explain.</p>
+      </div>
+      <div class="opt chosen">
+        <div class="eyebrow">Option B &nbsp;&middot;&nbsp; My choice</div>
+        <div class="t">Files + rules + one AI call</div>
+        <p>The app fetches the right files. The AI adapts them under written rules.</p>
+        <p>Predictable. Cheap. Easy to check.</p>
+      </div>
+    </div>
+    <p class="reveal d4 bigq" style="font-size:clamp(1.15rem,2vw,1.6rem);margin-top:30px;max-width:40ch">For a first version inside a company, I choose the design where quality is easier to control.</p>
+  </div>
+</section>
+
+<section class="slide" data-label="How it connects">
+  <div class="wrap">
+    <div class="reveal d1 eyebrow">Step 3 &nbsp;&middot;&nbsp; Architecture</div>
+    <h2 class="reveal d2">How the pieces connect</h2>
+    <div class="reveal d3 flow">
+      <div class="node"><div class="h">Content repo</div><p>Approved courses in GitHub</p></div>
+      <div class="node"><div class="h">Web app</div><p>Client brief and course choice</p></div>
+      <div class="node"><div class="h">Claude API</div><p>Called from a secure server</p></div>
+      <div class="node"><div class="h">Outputs</div><p>Proposal, outline, web deck, PDF</p></div>
+      <div class="rulesbox"><code>GENERATION_RULES.md</code><br>goes with every request</div>
+    </div>
+    <p class="reveal d4 serif" style="font-size:1.25rem;color:var(--ink-soft);margin-top:30px">The API key stays on the server. Staff never see it.</p>
+  </div>
+</section>
+
+<section class="slide divider" data-label="Implementation" data-dark="true">
+  <div class="wrap stack">
+    <div class="reveal d1 eyebrow">AI NEXT &nbsp;&middot;&nbsp; A case from practice</div>
+    <h1 class="reveal d2 huge-word">Implementation</h1>
+    <div class="reveal d3 prep"><p class="small" style="color:rgba(244,242,236,.7)"><b style="color:#F4F2EC">Daria Gavrilova</b> &nbsp;&middot;&nbsp; HCD Barcelona</p></div>
+  </div>
+</section>
+
+<section class="slide" data-label="Demo: input">
+  <div class="wrap">
+    <div class="reveal d1 eyebrow">Step 4 &nbsp;&middot;&nbsp; Implementation &nbsp;&middot;&nbsp; Demo</div>
+    <h2 class="reveal d2">A client brief goes in</h2>
+    <div class="grid-2-wide" style="margin-top:28px;align-items:start">
+      <figure class="reveal d3 fig maxh">
+        <img src="img/app_brief.png" alt="Screenshot of the Content Studio app with a client brief and two selected courses" loading="lazy">
+        <figcaption>Sample data. Fictional client.</figcaption>
+      </figure>
+      <div class="reveal d4 rows">
+        <div class="row"><div class="num">01</div><div><span class="nm">Pick the courses from the library</span></div></div>
+        <div class="row"><div class="num">02</div><div><span class="nm">Enter the client brief: industry, team size, hours, goal</span></div></div>
+        <div class="row"><div class="num">03</div><div><span class="nm">Click &ldquo;create&rdquo;</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="slide" data-label="Demo: output">
+  <div class="wrap">
+    <div class="reveal d1 eyebrow">Step 4 &nbsp;&middot;&nbsp; Implementation &nbsp;&middot;&nbsp; Demo</div>
+    <h2 class="reveal d2">Two documents come out</h2>
+    <div class="outs" style="margin-top:28px">
+      <figure class="reveal d3 fig maxh"><img src="img/app_result_1.png" alt="Generated client proposal with executive summary and modules" loading="lazy"></figure>
+      <figure class="reveal d3 fig maxh"><img src="img/app_result_2.png" alt="Generated course outline with session time blocks" loading="lazy"></figure>
+      <div class="reveal d4 rows">
+        <div class="row"><div><span class="nm">Proposal</span><span class="tag">Summary, modules, hours that add up</span></div></div>
+        <div class="row"><div><span class="nm">Course outline</span><span class="tag">Sessions, time blocks, deliverables</span></div></div>
+        <div class="row"><div><span class="nm">Downloads</span><span class="tag">PDF and Markdown</span></div></div>
+        <p class="small" style="margin-top:14px;font-style:italic">Sample data. Fictional client.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="slide" data-label="The rules">
+  <div class="wrap">
+    <div class="reveal d1 eyebrow">Step 3 &nbsp;&middot;&nbsp; The rules</div>
+    <h2 class="reveal d2" style="max-width:24ch">AI never touches the content: automatic approval</h2>
+    <div class="reveal d3 rows" style="margin-top:34px">
+      <div class="row"><div class="num">01</div><div><span class="nm">AI matches</span></div></div>
+      <div class="row"><div class="num">02</div><div><span class="nm">Deterministic code pulls:</span>
+        <ul class="sublist">
+          <li>Uses only the source syllabus</li>
+          <li>Never invents modules or outcomes by design</li>
+          <li>Flags content gaps and does not fill them</li>
+        </ul></div></div>
+      <div class="row"><div class="num">03</div><div><span class="nm">AI builds the storytelling layer</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="slide divider" data-label="Results" data-dark="true">
+  <div class="wrap stack">
+    <div class="reveal d1 eyebrow">AI NEXT &nbsp;&middot;&nbsp; A case from practice</div>
+    <h1 class="reveal d2 huge-word">Results</h1>
+    <div class="reveal d3 prep"><p class="small" style="color:rgba(244,242,236,.7)"><b style="color:#F4F2EC">Daria Gavrilova</b> &nbsp;&middot;&nbsp; HCD Barcelona</p></div>
+  </div>
+</section>
+
+<section class="slide" data-label="87%" data-dark="true">
+  <div class="wrap center">
+    <div class="reveal d1 eyebrow">Business result</div>
+    <h2 class="reveal d2">From 4 days to 4 hours</h2>
+    <div class="reveal d3 huge-stat">87%</div>
+    <p class="reveal d4 lead" style="margin:0 auto;font-size:clamp(1.3rem,2.4vw,2rem);max-width:none">less cycle time for the enterprise team</p>
+  </div>
+</section>
+
+<section class="slide" data-label="Cost per proposal">
+  <div class="wrap">
+    <div class="reveal d1 eyebrow">Business result &nbsp;&middot;&nbsp; Money &nbsp;&middot;&nbsp; Illustrative model</div>
+    <h2 class="reveal d2">Each proposal costs 66% less</h2>
+    <div class="reveal d3 cmp">
+      <div class="r head"><div></div><div class="h">Before</div><div class="h hot">With the system</div></div>
+      <div class="r"><div class="l">Turnaround</div><div class="v">4 working days</div><div class="v after">4 hours</div></div>
+      <div class="r"><div class="l">Labour per proposal</div><div class="v">12 hours</div><div class="v after">4 hours</div></div>
+      <div class="r"><div class="l">Labour cost at $40 an hour</div><div class="v">$480</div><div class="v after">$160</div></div>
+      <div class="r"><div class="l">AI generation cost</div><div class="v">$0</div><div class="v after">$2</div></div>
+      <div class="r total"><div class="l">Total cost per proposal</div><div class="v">$480</div><div class="v after">$162</div></div>
+    </div>
+    <p class="reveal d4" style="margin:18px 0 4px;font-weight:600">Saving: $318 per proposal.</p>
+    <p class="reveal d4 small" style="font-style:italic">Illustrative model, not measured records. Assumes $40 per hour of labour.</p>
+  </div>
+</section>
+
+<section class="slide" data-label="Cost avoided">
+  <div class="wrap">
+    <div class="reveal d1 eyebrow">Business result &nbsp;&middot;&nbsp; Money &nbsp;&middot;&nbsp; Illustrative model</div>
+    <h2 class="reveal d2">At the same output, $38,160 less</h2>
+    <div class="reveal d3 bars">
+      <div class="bl">The old way: 120 proposals &times; 12 hours &times; $40</div>
+      <div class="barrow"><div class="bar" style="--p:1"></div><b class="bv old">$57,600</b></div>
+      <div class="bl">With the system: 120 proposals &times; (4 hours &times; $40 + $2)</div>
+      <div class="barrow"><div class="bar new" style="--p:.3375"></div><b class="bv">$19,440</b></div>
+    </div>
+    <div class="reveal d4 avoid"><div class="bignum">$38,160</div><p>of cost avoided every year, at the same output</p></div>
+    <p class="reveal d4 small" style="font-style:italic">Cost avoidance, not past savings: the old team could not make 120 proposals a year. Illustrative model.</p>
+  </div>
+</section>
+
+<section class="slide" data-label="Capacity">
+  <div class="wrap">
+    <div class="reveal d1 eyebrow">Business result &nbsp;&middot;&nbsp; Money &nbsp;&middot;&nbsp; Scenario</div>
+    <h2 class="reveal d2" style="max-width:24ch">The bigger number is capacity: from 5 to 10 a month</h2>
+    <p class="reveal d3 serif" style="font-size:1.4rem;color:var(--ink-soft);margin-top:18px">Twice the proposals, with the same team.</p>
+    <div class="reveal d3 chain">
+      <div class="cell"><div class="n">60</div><div class="k">extra proposals a year</div></div>
+      <div class="cell"><div class="n">&times; 10%</div><div class="k">win rate (assumed)</div></div>
+      <div class="cell"><div class="n">&times; $20,000</div><div class="k">profit per won contract (assumed)</div></div>
+      <div class="cell hot"><div class="n">= $120,000</div><div class="k">extra profit a year</div></div>
+    </div>
+    <p class="reveal d4 bigq" style="font-size:clamp(1.2rem,2.2vw,1.8rem)">With the $9,360 saving, that is about $129,000 a year.</p>
+    <p class="reveal d4 small" style="font-style:italic;margin-top:14px">Scenario, not a measured result. It needs enough client demand, and it leaves out development and maintenance cost.</p>
+  </div>
+</section>
+
+<section class="slide" data-label="CEO">
+  <div class="wrap">
+    <div class="reveal d1 eyebrow">Leadership</div>
+    <h2 class="reveal d2">Endorsed by the CEO</h2>
+    <p class="reveal d3 bigq quote-xl">&ldquo;I have waited <span class="u">6 months</span> to see something like this.&rdquo;</p>
+    <div class="reveal d3 eyebrow muted" style="margin-top:18px">The CEO</div>
+    <p class="reveal d4 lead" style="margin-top:44px;max-width:44ch">Endorsement opens the door. Adoption decides what happens next.</p>
+  </div>
+</section>
+
+<section class="slide" data-label="Practical advice">
+  <div class="wrap">
+    <div class="reveal d1 eyebrow">Practical advice</div>
+    <h2 class="reveal d2" style="max-width:22ch">Where this pattern fits your business</h2>
+    <div class="grid-2" style="margin-top:34px">
+      <div class="reveal d3">
+        <div class="group-label hot" style="margin-top:0">You can use it if you have</div>
+        <div class="facts">
+          <div class="fact"><div class="mk">&rarr;</div><div class="ft"><b>One approved source of content</b></div></div>
+          <div class="fact"><div class="mk">&rarr;</div><div class="ft"><b>Small variations for each client, market or team</b></div></div>
+          <div class="fact"><div class="mk">&rarr;</div><div class="ft"><b>People who rebuild the same document by hand</b></div></div>
+        </div>
+      </div>
+      <div class="reveal d4">
+        <div class="group-label hot" style="margin-top:0">Where I would look first</div>
+        <div class="facts">
+          <div class="fact"><div class="ft">Client proposals</div></div>
+          <div class="fact"><div class="ft">Onboarding packs</div></div>
+          <div class="fact"><div class="ft">Answers to tenders (RFPs)</div></div>
+          <div class="fact"><div class="ft">Product sheets for each market</div></div>
+          <div class="fact"><div class="ft">Policies for each country</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="slide" data-label="Adoption">
+  <div class="wrap">
+    <div class="reveal d1 eyebrow">Next step</div>
+    <h1 class="reveal d2 huge-word" style="color:var(--ink)">Adoption</h1>
+    <p class="reveal d3 bigq" style="margin-top:20px;max-width:30ch">Nobody wants to do it. This is where long-term success is decided.</p>
+    <div class="reveal d4 cards">
+      <div class="card"><div class="kicker">01</div><div class="h">Demo early</div><div class="p">Show every team that will touch it, before launch.</div></div>
+      <div class="card"><div class="kicker">02</div><div class="h">Name an owner</div><div class="p">Someone keeps the content and the rules current.</div></div>
+      <div class="card"><div class="kicker">03</div><div class="h">Train the team</div><div class="p">Short sessions on real tasks, with their own documents.</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="slide" data-label="Work with me" data-dark="true">
+  <div class="wrap grid-2-wide">
+    <div>
+      <div class="reveal d1 eyebrow">Work with me</div>
+      <h1 class="reveal d2" style="font-size:clamp(2.4rem,5.4vw,4.4rem)">HCDBARCELONA</h1>
+      <p class="reveal d3 tagsub" style="color:rgba(244,242,236,.85);margin-top:24px;max-width:22ch">If your company needs something like this, call me.</p>
+      <div class="reveal d4 contacts">
+        <a href="https://hcdbarcelona.com" target="_blank" rel="noopener">hcdbarcelona.com</a>
+        <a href="https://www.linkedin.com/in/dgavrilova/" target="_blank" rel="noopener">linkedin.com/in/dgavrilova</a>
+      </div>
+      <div class="reveal d5 signoff"><div class="sig">Daria Gavrilova</div></div>
+    </div>
+    <figure class="reveal d3 fig photo"><img src="img/photo.jpg" alt="Daria Gavrilova seated on a rooftop terrace during a podcast recording" loading="lazy"></figure>
+  </div>
+</section>
+
+<section class="slide" data-label="Webinar">
+  <div class="wrap grid-2-wide">
+    <div>
+      <div class="reveal d1 eyebrow">Join me &nbsp;&middot;&nbsp; Webinar &nbsp;&middot;&nbsp; December 3</div>
+      <h2 class="reveal d2" style="max-width:16ch">AI Prototyping with Lovable</h2>
+      <p class="reveal d2 tagsub" style="margin-top:12px">From Idea to Working Prototype in 90 Minutes</p>
+      <div class="reveal d3 spec-rows">
+        <div class="sr"><span>When</span>December 3, 18:00-19:30</div>
+        <div class="sr"><span>Format</span>Online, hands-on workshop. Bring a laptop and a real idea.</div>
+        <div class="sr"><span>For</span>Founders, executives, product and innovation leaders</div>
+      </div>
+      <p class="reveal d4 serif" style="font-size:1.2rem;color:var(--ink-soft);margin-top:22px">Where vibe coding saves time and where it stops.</p>
+    </div>
+    <div class="reveal d4 qr">
+      <a href="https://luma.com/ladies-tqma" target="_blank" rel="noopener" aria-label="Open the webinar page on Luma"><img src="img/qr.png" alt="QR code that opens the webinar page on Luma" loading="lazy"></a>
+      <div class="cap">Scan to join</div>
+      <a class="link" href="https://luma.com/ladies-tqma" target="_blank" rel="noopener">luma.com/ladies-tqma</a>
+    </div>
+  </div>
+</section>
